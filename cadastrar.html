@@ -4,11 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/global.css" />
     <link rel="stylesheet" href="assets/css/cadastrar.css" />
-    <title>Estudo PHP</title>
+    <title>Estudo PHP - Cadastro</title>
   </head>
 
-  <body></body>
+  <body>
+    <div class="container">
+      <header id="header">
+        <div class="menu">
+          <h2>Estudo php</h2>
+          <h2><a href="index.html"> Inicio</a></h2>
+        </div>
+
+        <h1>Cadastrar</h1>
+      </header>
+
+      <main id="main">
+        <form class="form">
+          <div class="input-search">
+            <label for="inputNotice">Titulo: </label>
+            <input type="text" name="notice" id="inputNotice" required />
+          </div>
+          <div class="input-search">
+            <label for="inputDescription">Titulo: </label>
+            <textarea
+              type="text"
+              name="description"
+              rows="5"
+              id="inputDescription"
+              required
+            >
+            </textarea>
+            <div class="input-search">
+              <input type="submit" value="Cadastrar" />
+            </div>
+          </div>
+        </form>
+      </main>
+      <footer id="footer">
+        <div class="menu">
+          <span>&copy; 2023 EstudoPhpCorp </span>
+          <span>Powered by Anderson Lima</span>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
